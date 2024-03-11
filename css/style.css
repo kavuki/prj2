@@ -2,15 +2,19 @@
     margin: 0;
     padding: 0;
 }
-#home-screen{
-    background-color: #FFFBFF;
-}
-#thirtythree{
+
+.thirtythree{
     color: #8F4E00;
-    font-size: 175px;
+    width: 400px;
+    height:200px;
+    font-size: 200px;
     font-family: BakBak One;
     padding: 0px 20px;
+    margin-bottom: 0px;
+    cursor: pointer;
 }
+
+
 #info-1-heading{
     font-family:BakBak One;
 }
@@ -24,7 +28,7 @@
     color:white;
     padding:20px;
     width: 300px;
-    height:500px;
+    height:461px;
     border-radius: 20px;
     margin:20px;
 }
@@ -54,6 +58,7 @@
     border-radius:20px;
     overflow:hidden;
     margin:20px;
+    cursor: pointer;
 }
 
 #pic-box img{
@@ -74,4 +79,26 @@
     height:calc(100%/3);
     border-radius: 20px;
     background-color: #5B6237;
+}
+
+.image-column{
+    position:absolute;
+    top: 50px;
+    right:0;
+    width:300px;
+    overflow-y: scroll;
+}
+
+.latte{
+    display:block;
+    width:200px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.guam{
+    display: block;
+    width:200px;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
