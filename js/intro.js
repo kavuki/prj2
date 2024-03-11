@@ -35,7 +35,7 @@ $(document).ready(function() {
       });
 
       $("#pic-box").hover(function(){
-        $("#popup-box").slideToggle(2000);
+        $("#popup-box").slideToggle(1000);
     });
 
   });
